@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CALCULADORA DE VICTOR INDA</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="script/script.js"></script>
+</head>
+<body background="img/fondo1.jpg">
+	<header>
+		<h1 style="margin: 0;">CALCULADORA DE VICTOR INDA</h1>
+	</header>
+	<main>
+		<div class="texto">
+		<input type="text" name="numero1" id="num1" placeholder="Ingresa numero 1">
+		<input type="text" name="numero2" id="num2" placeholder="Ingresa numero 2">
+	    </div>
+	    <div class="tabla">
+		<table class="tabla">
+		<tr>
+			<td>
+				<button id="suma" onclick="sumar(num1, num2)">Sumar</button><br>
+				<img src="img/sumar.jpg">
+			</td>
+			<td>
+				<button id="resta" onclick="restar(num1, num2)">Restar</button><br>
+				<img src="img/restar.png">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button id="multi" onclick="multiplicar(num1, num2)">Multiplicar</button><br>
+				<img src="img/multiplicar.png">
+			</td>
+			<td>
+				<button id="divid" onclick="dividir(num1, num2)">Dividir</button><br>
+				<img src="img/dividir.png">
+			</td>
+		</tr>
+	</table>
+	<h4 id="resul" style="margin: 0;">Resultado: </h4>
+	</div>
+	</main>
+	<footer>
+		<p style="margin: 0;">
+			TODOS LOS DERECHOS RESERVADOS - CBTIS 206<br>
+			MAESTRA ALONDRA ZAVALA<br>
+			VICTOR INDA
+		</p>
+	</footer>
+</body>
+</html>
